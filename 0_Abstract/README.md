@@ -1,4 +1,2 @@
-Add the certificates in this folder
-* Sololearn Certificate for [Basics of C Programming](https://www.sololearn.com/learning/1089).
-* [Cisco NDG](https://www.netacad.com/courses/os-it/ndg-linux-unhatched) to Understand Linux OS and Command Line Interface.
-* **Screenshot** of [Github Learning](https://lab.github.com/githubtraining/first-day-on-github) to understand the github usage.
+# Abstract
+Many people forget to check the tyres of their vehicle and get burst tyre, to avoid tyre bursting and damage to tyre, this project will help. Tyre pressure monitor helps to calculate the air pressure in the vehicle tyre and alerts when it is need to be refilled. 
