@@ -3,7 +3,7 @@ PROJECT_NAME = Tyre pressure monitor
 
 # Output directory
 BUILD:
-	avr-gcc -Wall -g -Os -mmcu=atmega328 TyrePressure.c -o tyrepressure.elf
+	avr-gcc -Wall -g -Os -mmcu=atmega328 TyrePressure.c -o tyrepressure.elf -o tyrepressure.hex
 
 # All source code files
 SRC = project_main.c\
