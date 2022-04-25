@@ -1,2 +1,2 @@
-@mainpage Calculator Application by Bharath G
-@subpage calculator_operations.h
+@mainpage TyrePressureMonitor Application by Arjun K
+@subpage tyrepressure.h

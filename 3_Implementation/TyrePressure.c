@@ -1,8 +1,9 @@
 #ifndef __AVR_ATmega328__
     #define __AVR_ATmega328__
 #endif
-#include <avr/io.h>
 #define F_CPU 16000000
+
+#include <avr/io.h>
 #include <util/delay.h>
 #include <avr/interrupt.h>
 #include <stdlib.h>
@@ -119,3 +120,4 @@ void send_a_string(char *string_of_characters)
         send_a_character(*string_of_characters++);
     }
 }
+

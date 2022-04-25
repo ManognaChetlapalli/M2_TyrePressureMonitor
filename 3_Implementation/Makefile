@@ -1,17 +1,15 @@
 # Name of the project
-PROJECT_NAME = Calculator
+PROJECT_NAME = Tyre pressure monitor
 
 # Output directory
-BUILD = build
+BUILD:
+	avr-gcc -Wall -g -Os -mmcu=atmega328 TyrePressure.c -o tyrepressure.elf
 
 # All source code files
 SRC = project_main.c\
-src/calculator_operations.c
+src/tyrepressure.c
 
 # All test source files
-TEST_SRC = src/calculator_operations.c\
-test/test_calculator_operations.c\
-unity/unity.c\
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
